@@ -1,0 +1,370 @@
+*{
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background: white;
+	margin: 0 auto;
+	min-width: 1100px;
+	height: 100%;
+	background: #492897;
+}
+
+
+.header {
+	height: 190px;
+}
+
+.hr{
+	background-color: white;
+	height: 3px;
+}
+
+.progress-bar {
+	background-color: #f9ea3d;
+	height: 15px;
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+}
+
+.bar {
+	width:20%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.bar + .bar {
+	border-left: 1px solid #37af3c;
+}
+
+.full + .full{
+	border-color: #f9ea3d;
+}
+
+
+.full {
+	background-color: #37af3c;
+}
+
+.cell {
+	height: 100%;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+}
+
+.student {
+	position: relative;
+}
+
+.student-text {
+	display: inline-block;
+	position: absolute;
+	padding-left: 35px;
+	padding-top: 50px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: -13px;
+	margin-bottom: -2px;
+}
+
+p {
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+a {
+	background-color: #f6cf50;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0000s_0000s_0000__.png);
+	position: absolute;
+	top: 75px;
+	width: 172px;
+	height: 40px;
+	right: 45px;
+	z-index: 138;
+	border-radius: 20px;
+	color: #212d37;
+	text-decoration: none;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: 85% 53%;
+	padding-left: 35px;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+a:active {
+	background-color: #ffe553;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0000s_0000s_0000__.png);
+	position: absolute;
+	top: 75px;
+	width: 172px;
+	height: 40px;
+	right: 45px;
+	z-index: 138;
+	border-radius: 20px;
+	color: #212d37;
+	text-decoration: none;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: 85% 53%;
+	padding-left: 35px;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.cell-text {
+	display: inline-block;
+	margin-top: 155px;
+	font-weight: bold;
+}
+
+.logo {
+	background: #434c53;
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0002s_0000s_0000_Logo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.logo:hover {
+	background: #373d42;
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0002s_0000s_0000_Logo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+
+.girl {
+	background: #f27eb2;
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0000s_0002s_0000s_0000_Girl-1.png);
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+}
+
+/*.girl:hover {
+	background: #02a3c0;
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0000s_0002s_0000s_0000_Girl-1.png);
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+}*/
+
+.student {
+	background: #0094af;
+	color: white;
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+.row1 {
+	height: 190px;
+}
+
+.internet {
+	background-image: url(img/TY_Student-tiles_v1_0001s_0001s_0005s_0002_Image.png), linear-gradient(to right, #404da1 50%, #303f9f 50%);
+	background-repeat: no-repeat;
+	background-position: 52.5% 40%;
+	width: 20%;
+}
+
+.internet:hover {
+	background-image: url(img/TY_Student-tiles_v1_0001s_0001s_0005s_0002_Image.png), linear-gradient(to right, #2e3b8a 50%, #273380 50%);
+	background-repeat: no-repeat;
+	background-position: 52.5% 40%;
+	width: 20%;
+}
+
+.travel {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0001s_0004s_0002_Image.png), linear-gradient(to right, #1c7fdc 50%, #1976d2 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.travel:hover {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0001s_0004s_0002_Image.png), linear-gradient(to right, #1972c6 50%, #166abd 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.ventolir {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0001s_0003s_0002_Image.png), linear-gradient(to right, #007c6e 50%, #00796b 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.ventolir:hover {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0001s_0003s_0002_Image.png), linear-gradient(to right, #006f63 50%, #006d60 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.water {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0001s_0002s_0002_Image.png), linear-gradient(to right, #3e9742 50%, #388e3c 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.water:hover {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0001s_0002s_0002_Image.png), linear-gradient(to right, #38883b 50%, #328036 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.electricity {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0001s_0001s_0002_Image.png), linear-gradient(to right, #b7195a 50%, #ab1a58 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.electricity:hover {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0001s_0001s_0002_Image.png), linear-gradient(to right, #a41651 50%, #9a174f 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+
+.row2 {
+	height: 190px;
+}
+
+.house {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0002s_0004s_0002_Image.png), linear-gradient(to right, #027ec5 50%, #0277bd 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.house:hover {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0002s_0004s_0002_Image.png), linear-gradient(to right, #0271b1 50%, #026baa 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.pay {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0002s_0003s_0002_IMAGE.png), linear-gradient(to right, #009daf 50%, #0097a7 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.pay:hover {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0002s_0003s_0002_IMAGE.png), linear-gradient(to right, #008d9d 50%, #008896 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.stereo {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0002s_0002s_0002_Image.png), linear-gradient(to right, #009081 50%, #00897b 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.stereo:hover {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0002s_0002s_0002_Image.png), linear-gradient(to right, #008174 50%, #007b6e 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.shirt {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0002s_0001s_0003_Girl.png), linear-gradient(to right, #6339b7 50%, #5e35b1 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.shirt:hover {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0002s_0001s_0002_Boy.png), linear-gradient(to right, #5933a4 50%, #54309f 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.toy {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0002s_0000s_0003_Girl-.png), linear-gradient(to right, #8b0f51 50%, #880e4f 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.toy:hover {
+	width: 20%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0002s_0000s_0002_Boy.png), linear-gradient(to right, #7d0d49 50%, #7a0d47 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.row3 {
+	height: 190px;
+}
+
+.apple {
+	width: 34%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0003s_0001s_0002_Image.png), linear-gradient(to right, #5630ac 50%, #512da8 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.apple:hover {
+	width: 34%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0003s_0001s_0002_Image.png), linear-gradient(to right, #4d2b9a 50%, #492897 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.sport {
+	width: 33%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0003s_0000s_0002_Image.png), linear-gradient(to right, #3b2199 50%, #311b92 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.sport:hover {
+	width: 33%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0003s_0000s_0002_Image.png), linear-gradient(to right, #351e89 50%, #2c1883 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.world {
+	width: 33%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0003s_0002s_0002_IMAGE.png), linear-gradient(to right, #8022a8 50%, #7b1fa2 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
+
+.world:hover {
+	width: 33%;
+	background-image: url(img/TY_Student-tiles_v1_0001s_0003s_0002s_0002_IMAGE.png), linear-gradient(to right, #731f97 50%, #6e1c91 50%);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+}
