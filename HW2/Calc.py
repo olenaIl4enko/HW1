@@ -1,8 +1,9 @@
 print('Welcome to calculator! Write "exit" for the end of work')
 while True:
     s = input('What do you want to do? +, -, /, or *: ')
-    if s == 'exit': break
-    if s in ('+','-','*','/'):
+    if s == 'exit':
+        break
+    if s in ('+', '-', '*', '/'):
         a = float(input("a="))
         b = float(input("b="))
         if s == '+':
